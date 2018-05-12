@@ -1,3 +1,3 @@
 # JavaScript-DOM
 
-JavaScript & the DOM lesson: lesson 9
+JavaScript & the DOM lesson: lesson 10
