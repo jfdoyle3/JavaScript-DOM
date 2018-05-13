@@ -8,10 +8,25 @@ list.addEventListener('click',function(e){
   }
 });
 
-//add book list
+//add book
 const addForm=document.addForm['add-book'];
-
 addForm.addEventListener('submit', function(e){
   e.preventDefault();
   const value=addForm.querySelector('input[Type="text"]').value;
+
+  // create elements
+  const li = document.createElement('li');
+  const bookName=document.createElement('span');
+  const deleteBtn=document.createElement('span');
+
+  //add content
+  deleteBtn.textContent ='delete';
+  bookName.textContent= value;
+
+  // append to document
+  li.appendChild(bookName);
+  li.appendChild(deleteBtn);
+  list.appendChild(li);
+
+>>>>>>> lesson_12
 });
