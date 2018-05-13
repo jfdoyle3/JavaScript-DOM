@@ -9,7 +9,7 @@ list.addEventListener('click',function(e){
 });
 
 //add book
-const addForm=document.addForm['add-book'];
+const addForm=document.forms['add-book'];
 addForm.addEventListener('submit', function(e){
   e.preventDefault();
   const value=addForm.querySelector('input[Type="text"]').value;
@@ -23,10 +23,13 @@ addForm.addEventListener('submit', function(e){
   deleteBtn.textContent ='delete';
   bookName.textContent= value;
 
+  //add classes
+  bookName.classList.add('name');
+  deleteBtn.classList.add('delete');
+
   // append to document
   li.appendChild(bookName);
   li.appendChild(deleteBtn);
   list.appendChild(li);
 
->>>>>>> lesson_12
 });
