@@ -6,4 +6,12 @@ list.addEventListener('click',function(e){
     // li.parentNode.removeChild(li);
        list.removeChild(li);
   }
-})
+});
+
+//add book list
+const addForm=document.addForm['add-book'];
+
+addForm.addEventListener('submit', function(e)){
+  e.preventDefault();
+  const value=addForm.querySelector('input[Type="text"]').value;
+}
