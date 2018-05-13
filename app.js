@@ -11,7 +11,7 @@ list.addEventListener('click',function(e){
 //add book list
 const addForm=document.addForm['add-book'];
 
-addForm.addEventListener('submit', function(e)){
+addForm.addEventListener('submit', function(e){
   e.preventDefault();
   const value=addForm.querySelector('input[Type="text"]').value;
-}
+});
