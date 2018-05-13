@@ -9,7 +9,7 @@ list.addEventListener('click',function(e){
 });
 
 //add book
-const addForm=document.addForm['add-book'];
+const addForm=document.forms['add-book'];
 addForm.addEventListener('submit', function(e){
   e.preventDefault();
   const value=addForm.querySelector('input[Type="text"]').value;
