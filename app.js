@@ -58,4 +58,4 @@ searchBar.addEventListener('keyup',function(e){
       book.style.display = 'none';
     }
   })
-})
+});
