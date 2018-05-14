@@ -1,4 +1,4 @@
-const list=document.querySelector('#book-list ul');
+document.addEventListener('DOMContentLoaded', function(){const list=document.querySelector('#book-list ul');
 //delete books
 list.addEventListener('click',function(e){
   if (e.target.className == 'delete'){
@@ -74,4 +74,5 @@ tabs.addEventListener('click', function(e){
       }
     });
   }
+});
 });

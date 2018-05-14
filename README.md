@@ -1,4 +1,4 @@
 
 # JavaScript-DOM
 
-JavaScript & the DOM lesson: lesson 17
+JavaScript & the DOM lesson: lesson 18
